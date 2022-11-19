@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="royna"
-		fetch="https://github.com/roynatech2544" />
+        <remote name="dev"
+		fetch="https://github.com/msm8917-dev" />
 
 	<remote name="lineage"
 		fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
-	<project path="device/samsung/j2y18lte" name="android_device_samsung_j2y18lte" remote="royna" revision="lineage-19.1"/>
-	<project path="device/samsung/msm8917-common" name="android_device_samsung_msm8917-common" remote="royna" revision="lineage-19.1" />
-	<project path="kernel/samsung/msm8917" name="android_kernel_samsung_msm8917" remote="royna" revision="lineage-19.1" />
-	<project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="lineage-19.1" />
-        <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="royna" revision="lineage-19.1"/>
+	<project path="device/samsung/j2y18lte" name="android_device_samsung_j2y18lte" remote="dev" revision="lineage-19.1"/>
+	<project path="device/samsung/msm8917-common" name="android_device_samsung_msm8917-common" remote="dev" revision="j2pro" />
+	<project path="kernel/samsung/msm8917" name="android_kernel_samsung_msm8917" remote="dev" revision="lineage-19.1" />
+	<project path="hardware/samsung" name="android_hardware_samsung" remote="dev" revision="lineage-19.1" />
+        <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dev" revision="lineage-19.1"/>
         
 </manifest>
