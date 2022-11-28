@@ -3,13 +3,13 @@
         <remote name="dev"
 		fetch="https://github.com/msm8917-dev" />
 
-	<remote name="lineage"
+	<remote name="lineage-os"
 		fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
 	<project path="device/samsung/j2y18lte" name="android_device_samsung_j2y18lte" remote="dev" revision="lineage-19.1"/>
 	<project path="device/samsung/msm8917-common" name="android_device_samsung_msm8917-common" remote="dev" revision="staging/j2y18lte-rebase" />
-	<project path="device/samsung/vd" name="android_device_samsung_vendor_detect" remote="dev" revision="master" />
+	<project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-os" revision="master" />
 	<project path="kernel/samsung/msm8917" name="android_kernel_samsung_msm8917" remote="dev" revision="lineage-19.1" />
         <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dev" revision="lineage-19.1"/>
         
